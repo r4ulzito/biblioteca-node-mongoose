@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "typescriptnode_configuracao",
+  "version": "1.0.0",
+  "description": "Configuração padrão do Node.js com TypeScript, Nodemon, TS-Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/App.ts",
+    "watch": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "mongoose": "^6.6.2"
+  }
+}
